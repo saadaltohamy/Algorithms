@@ -27,11 +27,11 @@ def kruskal(graph, V, E):
 
     # First: initialization process:
 
-    result = [] # Minimum Spanning Tree(MST) result of the algorithm
-    i = 0 # traverse the edges of original graph in Line 46
-    e = 0 # number of edges included in the MST
-    parent = [] # parent of each vertex in the disjoint set data structure
-    rank = [] # rank of each vertex in the disjoint set data structure
+    result = []     # Minimum Spanning Tree(MST) result of the algorithm
+    i = 0           # traverse the edges of original graph in Line 46
+    e = 0           # number of edges included in the MST
+    parent = []     # parent of each vertex in the disjoint set data structure
+    rank = []       # rank of each vertex in the disjoint set data structure
     # initially, parent of each vertex is itself, and rank is 0
     for node in range(V):
         parent.append(node)
